@@ -14,7 +14,7 @@ namespace TestRailApi.ClientExtensions
             var request = RestRequestBuilder.Build(endPoint, method, user, model);
             var client = user.CreateClient();
             
-            return ClientHelper.GetResponse<T>(client, request).Result;
+            return await ClientHelper.GetResponse<T>(client, request);
         }
     }
 }
