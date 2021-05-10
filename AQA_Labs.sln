@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageObject", "PageObject\PageObject.csproj", "{B342BF24-F0B3-4BEC-839B-95E4A5F6CD89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRailApi", "TestRailApi\TestRailApi.csproj", "{EBBD10DD-6620-4047-8155-19F2264713A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{B342BF24-F0B3-4BEC-839B-95E4A5F6CD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B342BF24-F0B3-4BEC-839B-95E4A5F6CD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B342BF24-F0B3-4BEC-839B-95E4A5F6CD89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBBD10DD-6620-4047-8155-19F2264713A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBBD10DD-6620-4047-8155-19F2264713A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBBD10DD-6620-4047-8155-19F2264713A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBBD10DD-6620-4047-8155-19F2264713A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
