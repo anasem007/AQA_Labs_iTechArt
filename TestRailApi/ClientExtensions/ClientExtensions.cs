@@ -1,6 +1,7 @@
 ﻿using RestSharp;
 using RestSharp.Authenticators;
 using TestRailApi.Models;
+using TestRailApi.Models.User;
 using TestRailApi.Services;
 
 namespace TestRailApi.ClientExtensions
