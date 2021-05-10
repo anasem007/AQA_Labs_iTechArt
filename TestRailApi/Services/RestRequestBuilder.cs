@@ -1,5 +1,5 @@
 ﻿using RestSharp;
-using TestRailApi.Models;
+using TestRailApi.Models.User;
 using TestRailApi.Utils;
 
 namespace TestRailApi.Services
