@@ -1,5 +1,4 @@
 using System;
-using NUnit.Allure.Core;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using PageObject.BaseEntities;
@@ -8,7 +7,6 @@ using PageObject.Steps;
 
 namespace PageObject.Tests
 {
-    [AllureNUnit]
     public class Tests : BaseTest
     {
         [Test]
