@@ -5,7 +5,8 @@ namespace TestRailApi.BaseEntities
 {
     public class BaseTest
     {
-        protected int ProjectId =  -1; 
+        protected int ProjectId =  -1;
+        protected int SuiteId = -1;
         protected const int FakeProjectId = int.MaxValue;
         protected const string InvalidId = "id";
         
