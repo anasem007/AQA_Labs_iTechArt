@@ -22,4 +22,34 @@
         <PackageReference Include="WebDriverManager" Version="2.11.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="allureConfig.json" />
+      <Content Include="allureConfig.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="appsettings.json" />
+      <Content Include="appsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="TestData\fakeUser.json" />
+      <None Remove="TestData\invalidProject.json" />
+      <None Remove="TestData\projectRequestModel.json" />
+      <None Remove="TestData\suite.json" />
+      <None Remove="TestData\updateSuite.json" />
+      <None Remove="TestData\user.json" />
+      <None Remove="TestData\userNoAccess.json" />
+      <None Remove="TestData\projects.json" />
+      <Content Include="TestData\projects.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="TestData\suites.json" />
+      <Content Include="TestData\suites.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="TestData\users.json" />
+      <Content Include="TestData\users.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>

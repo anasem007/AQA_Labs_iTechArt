@@ -1,12 +1,13 @@
-﻿using System.Threading.Tasks;
+using System.Threading.Tasks;
 using RestSharp;
+using TestRailApi.ClientExtensions;
 using TestRailApi.Helpers;
-using TestRailApi.Models;
+using TestRailApi.Models.User;
 using TestRailApi.Services;
 
-namespace TestRailApi.ClientExtensions
+namespace TestRailApi.Steps
 {
-    public class ModelResponseExtensions<T>
+    public class ModelResponseSteps<T>
     {
         public async Task<IRestResponse<T>> CreateResponse(string endPoint, Method method,
             User user, object model = null)
