@@ -1,0 +1,17 @@
+[
+  {
+    "Id": "Admin",
+    "Username" : "atrostyanko+0401@gmail.com",
+    "Password" : "QqtRK9elseEfAk6ilYcJ"
+  },
+  {
+    "Id": "FakeUser",
+    "Username" : "anna0990@gmail.com",
+    "Password" : "QqtRK9elseEfAk6ilYcJ"
+  },
+  {
+    "Id": "UserNoAccess",
+    "Username": "ananassemechka99@gmail.com",
+    "Password": "12345007"
+  }
+]
