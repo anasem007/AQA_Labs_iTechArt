@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQA_Labs", "AQA_Labs\AQA_Labs.csproj", "{15F23387-B592-48A4-B673-793BD16487EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15F23387-B592-48A4-B673-793BD16487EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F23387-B592-48A4-B673-793BD16487EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F23387-B592-48A4-B673-793BD16487EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F23387-B592-48A4-B673-793BD16487EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
