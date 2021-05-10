@@ -1,7 +1,7 @@
 ﻿
 namespace PageObject.Services
 {
-    public class DbConnectionFactory
+    public static class DbConnectionFactory
     {
         public static void CreateTransient(string tableName)
         {
